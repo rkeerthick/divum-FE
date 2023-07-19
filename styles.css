@@ -1,20 +1,20 @@
 body{
     margin: 0px auto;
     height: 0px;
-    width: 65%;
     padding: 0px;
     /* background-color: rgb(3, 78, 252); */
     
 }
 
-
-
 header {
     height: 100vh;
+    width: 100%;
     background-color: rgb(3, 78, 252);
 }
 
 .navbar {
+    width: 70%;
+    margin: auto;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -46,6 +46,11 @@ header {
     border-radius: 20px;
 }
 
+video {
+    display: block;
+    margin: auto;
+}
+
 .main-heading {
     padding: 70px;
     text-align: center;
@@ -63,12 +68,12 @@ header {
 }
 
 .main-quotes {
-    width: 67%;
+    width: 60%;
     margin: auto;
     padding-top: 30px;
     text-align: center;
 
-    .quotes {
+    & .quotes {
         color: black;
         font-size: 24px;
         font-weight: lighter;
@@ -121,7 +126,7 @@ header {
     padding: 20px 0px;
 } */
 
-.quotes-contact-me {
+/* .quotes-contact-me {
     color: rgb(78, 181, 255);
     background: none;
     border: none;
@@ -129,14 +134,37 @@ header {
     border-radius: 20px;
     padding: 15px 25PX;
     letter-spacing: .5rem;
-}
+} */
 
 .main-blocks {
+    width: 70%;
+    margin: auto;
     padding: 50px;
 
     & .block {
         box-sizing: border-box;
-        margin: 100px 0px;
+        margin: 30px 0px;
+        display: flex;
+
+        & .block-left {
+            /* margin-right: 30px; */
+            margin-left: 40px;
+        }
+
+        & .block-right {
+            margin-left: 60px;
+        }
+
+        & .block-1-desc {
+            /* float: left;
+            width: 30%;
+            padding: 30px 50px; */
+            
+            flex: 50%;
+
+        }
+
+        
     }
     
 }
@@ -145,15 +173,27 @@ header {
     box-sizing: border-box;
     margin: 100px 0px;
 } */
+.block-1-desc h2 {
+    font-size: 32px;
+}
+
+.block-1-desc p {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
 
 .block a {
     font-size: 10px;
     letter-spacing: 0.1rem;
 }
 
+.block img {
+    width: 300px;
+}
 
-.block-1-desc {
+
+/* .block-1-desc {
     float: left;
     width: 40%;
     padding: 30px;
-}
+} */
