@@ -1,8 +1,8 @@
-const gallery = ["", "/images/gallery/Social Networkds .jpg", "/images/gallery/Supply Chain.jpg", "/images/gallery/Media 003.jpg", "/images/gallery/Fintech 004.jpg", "/images/gallery/Health Tech.jpg",  "/images/gallery/E-commerce.jpg", "/images/gallery/Travel Tech.jpg",, "/images/gallery/Edutech.jpg"]
+const gallery = {1:"/images/gallery/Social Networks .jpg", 2:"/images/gallery/Supply Chain.jpg", 3:"/images/gallery/Media 003.jpg", 4:"/images/gallery/Fintech 004.jpg", 5:"/images/gallery/Health Tech.jpg",  6:"/images/gallery/E-commerce.jpg", 7:"/images/gallery/Travel Tech.jpg", 8:"/images/gallery/Edutech.jpg"}
+
+// console.log(gallery[1])
+
 function display(list) {
-    var li = JSON.parse(list)
-    console.log(li)
-    console.log(typeof(li))
-    console.log(gallery[li])
+    console.log(gallery[list.value]);
+    document.getElementById("client-gallery").src = gallery[list.value]
 }
-console.log(gallery[1])

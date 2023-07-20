@@ -408,11 +408,11 @@ video {
     color: blue;
 }
 
-.client-gallery {
+/* #client-gallery {
     display: inline;
     height: 500px;
     width: 800px;
-    border: 1px solid black;
+    border: 0px;
     background-position: center;
     background-size: cover;
-}
+} */
