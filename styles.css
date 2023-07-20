@@ -53,10 +53,15 @@ video {
 }
 
 .main-heading {
-    padding: 70px;
+    width: 730px;
+    margin: auto;
+    overflow: hidden;
+    white-space: wrap;
+    padding: 70px 20px;
     text-align: center;
     font-size: 18px;
     font-weight: bolder;
+    /* display: block; */
 }
 
 .main-heading h1 {
@@ -227,12 +232,13 @@ video {
 
 .about-divum-container {
     width: 70%;
-    margin: auto;
+    margin: 5rem auto;
     display: grid;
     /* grid-template-rows: 500px 500px 500px 500px 500px 500px; */
     /* grid-template-columns: 300px 300px 300px 300px 300px 300px; */
     grid-template-rows: repeat(4, 500px);
     grid-template-columns: repeat(8, 200px);
+    align-items: center;
 }
 
 .item-1 {
@@ -240,7 +246,6 @@ video {
     grid-row-end: 1;
     grid-column-start: 1;
     grid-column-end: 4;
-    margin-left: 100px;
 }
 
 .item-2 {
@@ -255,7 +260,6 @@ video {
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 4;
-    margin-left: 100px;
 }
 
 .item-4 {
@@ -271,7 +275,6 @@ video {
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 4;
-    margin-left: 100px;
 }
 
 .item-6 {
@@ -287,7 +290,6 @@ video {
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 4;
-    margin-left: 100px;
 }
 
 .item-8 {
@@ -316,7 +318,8 @@ video {
     grid-template-rows: repeat(8, 130px);
     grid-template-columns: repeat(14, 120px);
 
-    
+    /* grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr; */
 }
 
 .what-we-build-container .title {
@@ -416,3 +419,15 @@ video {
     background-position: center;
     background-size: cover;
 } */
+
+#client-gallery {
+    border: 0px solid white;
+}
+
+/* engagement-level */
+
+.engagement-level {
+    direction: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
