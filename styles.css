@@ -37,6 +37,18 @@ header {
     padding: 0px 15px;
 }
 
+.list select {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.list option {
+    color: white;
+    font-size: 18px;
+}
+
 .submit {
     padding: 10px 30px;
     background: none;
@@ -311,8 +323,8 @@ video {
 /* What-we-build */
 
 .what-we-build-container {
-    width: 90%;
-    margin: auto;
+    /* width: 90%; */
+    margin: 40px;
     box-shadow: 0px 0px 20px rgb(235, 235, 235);
     display: grid;
     grid-template-rows: repeat(8, 130px);
@@ -427,7 +439,168 @@ video {
 /* engagement-level */
 
 .engagement-level {
-    direction: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.engagement-level h1 {
+    text-align: center;
+    padding: 40px;
+}
+
+.engagement-level-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.engagement-level-container img {
+    width: 550px;
+    margin-bottom: 30px;
+}
+
+.digital-transformation {
+    cursor: pointer;
+}
+
+.product-development {
+    cursor: pointer;
+}
+
+.engagement-level-caption {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.engagement-level-description {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Partners */
+
+.partners {
+    max-width: 70%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners h1 {
+    margin: 0px;
+    padding: 10px;
+}
+
+.partners h5 {
+    margin-top: 0px;
+}
+
+.partner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.bl {
+    width: 303px;
+    height: 303px;
+    border: 30px;
+    background-color: #f4f4f4;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
+.aws-words {
+    background-image: url(/images/partners/aws.png);
+    background-position: center;
+    background-repeat: none;
+    visibility: hidden;
+}
+.aws-words:hover {
+    padding: 20px;
+}
+
+/* .aws {
+    text-indent: 9999px;            
+    background-image: url(/images/partners/aws.png); 
+    background-repeat: no-repeat;
+    white-space: nowrap;  
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f4f4f4;
+    
+
+}
+
+
+.aws:hover{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-indent: 0px;
+    background-image: none;
+
+}
+
+.aws:hover p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 270px;
+
+} */
+
+
+/* how we do */
+
+.how-we-do {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 50px 100px;
+    background-color: #fbf9f5;
+}
+
+.how-we-do-title {
+    width: 400px;
+    font-size: 32px;
+}
+
+.how-we-do-container {
+    max-width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 50px;
+}
+.how-we-do-sections {
+    width: 300px;
+    height: 200px;
+    padding: 40px;
+}
+
+.how-we-do-sections img {
+    width: 50px;
 }
