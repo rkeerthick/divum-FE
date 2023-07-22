@@ -706,3 +706,24 @@ a {
     width: 50px;
 }
 
+/* insights */
+
+.insight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0px;
+}
+
+.insight-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+}
+
+.insight img {
+    width: 300PX;
+    height: auto;
+}
