@@ -24,3 +24,13 @@ function display(list) {
     console.log(gallery[list.value]);
     document.getElementById("client-gallery").src = gallery[list.value]
 }
+
+
+// partner - image
+
+// const partner_image = {1:"aws.png", 2:"google-cloud.png", 3:"oracle.png", 4:"microsoft.png", 5:"sap.png"}
+
+// let i = Object.keys(partner_image).length
+// for(let k=1; k<=i; k++) {
+//     document.getElementById("bl").style.backgroundImage = `url(/images/partners/${partner_image[k]})`
+// }

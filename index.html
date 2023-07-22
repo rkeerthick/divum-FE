@@ -9,30 +9,39 @@
 <body>
     <div>
     <header>
-        <div class="navbar">
-            <img class="logo" src="/images/Divum_Logo.png" alt="no image found">
-            <nav>
-                <ul class="unorder-list">
-                    <li class = "list">Home</li>
-                    <li class = "list">Services</li>
-                    <li class = "list">Solutions</li>
-                    <li class = "list">Industry</li>
-                    <li class = "list">
-                        <select name="" id="" value="About">
-                            <option value="about-us">About Us</option>
-                            <option value="npd-meet">NPD Meet</option>
-                            <option value="l&d">L&D</option>
-                            <option value="gallery">Gallery</option>
-                            <option value="newsletter">NewsLetters</option>
-                        </select>
-                    </li>
-                    <li class = "list">Company</li>
-                </ul>
-            </nav>
-            <button class="submit" type="submit" value="Carrers">Careers</button>
+        <nav class="navbar">
+            <a href="#" class="logo"><img src="/images/Divum_Logo.png" alt="no image found"></a>
+            <ul class="navbar-list">
+                <li class = "navbar-list-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class = "navbar-list-item">
+                    <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class = "navbar-list-item">
+                    <a href="#" class="nav-link">Solutions</a>
+                </li>
+                <li class = "navbar-list-item">
+                    <a href="#" class="nav-link">Industry</a>
+                </li>
+                <li class = "navbar-list-item">About Us
+                    <!-- <div class="about-us-pop-up">
+                        
+                    </div> -->
+                </li>
+                <li class = "navbar-list-item">
+                    <a href="#" class="nav-link">Company</a>
+                </li>
+                <li class="navbar-list-item"><a href="#" class="submit">Careers</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
             
+        </nav>
             
-        </div>
         <div class="main-heading">
             <h1>
                 YOUR TRUSTED PARTNER FOR
@@ -41,9 +50,9 @@
             </h1>
         </div>
 
-        <video width="1000" height="700" controls>
-            <source src="/video/Banner Video.mp4" type="video/mp4">
-        </video>
+            <video width="1000" height="700" controls>
+                <source src="/video/Banner Video.mp4" type="video/mp4">
+            </video>
     </header>
     <main class="main-div">
         <div class="main-quotes">
@@ -53,31 +62,31 @@
             </div>
             <!-- <div class="quotes-contact-me">
             </div>  -->
-            <button class="quotes-contact-me" type="submit">CONTACT US</button>
+            <p class="main-quotes contact-us">CONTACT US</p>
             
         </div>
 
        
         
-        </>
+        
         <!-- <div class="main-blocks">
             <div class="block block-1">
-                <div class="block-1-desc">
+                <div class="about-divum-description">
                     <h2>Welcome to Divum !</h2>
                     <p>The world is seeing unprecedented Digital Transformation across all businesses to improve efficiencies, enable frictionless customer reachout and deliveries, provide better customer satisfaction, and enable new business models.
                         At Divum we have prepared ourselves with our 14 years of experience to make this journey seamless and cost effective for you.
                         You have an existing business and are looking for ways to tap into the power of Digital? Our experts will work with you to identify areas of your legacy application modernization and work-flow automation...</p>
                     <a href="#">READ MORE...</a>
                 </div>
-                <div class="block-1-desc" style="margin-top: 30px;">
+                <div class="about-divum-description" style="margin-top: 30px;">
                     <img src="/images/img1.png" alt="">
                 </div>
             </div>
             <div class="block block-2">
-                <div class="block-1-desc" >
+                <div class="about-divum-description" >
                     <img src="/images/img2.png" alt="">
                 </div>
-                <div class="block-1-desc" style="margin-top: 70px;">
+                <div class="about-divum-description" style="margin-top: 70px;">
                     <h2>1400+ Solutions Delivered</h2>
                     <p>
                         The world is seeing unprecedented Digital Transformation across all businesses to improve efficiencies, enable frictionless customer reachout and deliveries, provide better customer satisfaction, and enable new business models.
@@ -88,22 +97,22 @@
                 </div>
             </div>
             <div class="block">
-                <div class="block-1-desc" style="margin-top: 40px; margin-left: 20px;">
+                <div class="about-divum-description" style="margin-top: 40px; margin-left: 20px;">
                     <h2>60+ Technologies Covered</h2>
                     <p>
                         We embrace new technologies by partnering with OEMs/Platform owners for Early Access Programs.We enable you to stay ahead of the market by leveraging cutting edge technologies We have been there, done that. Many times over.Our vast experience coupled with our Agile development methodology and Pre-built Solutions strike a good balance between...
                     </p>
                     <a href="#">READ MORE...</a>
                 </div>
-                <div class="block-1-desc" style="margin-top: 30px;">
+                <div class="about-divum-description" style="margin-top: 30px;">
                     <img src="/images/img3.png" alt="">
                 </div>
             </div>
             <div class="block">
-                <div class="block-1-desc">
+                <div class="about-divum-description">
                     <img src="/images/img4.png" alt="">
                 </div>
-                <div class="block-1-desc">
+                <div class="about-divum-description">
                     <h2>20+ Domains</h2>
                     <p>
                         In the last 14 years, we have built Digital Solutions cutting across e-Commerce, Supply Chain, Logistics, Social Networks, Chat/Collaboration, Health-tech, Fintech...
@@ -115,7 +124,7 @@
 
         <div class="about-divum-container">
             <div class="item item-1">
-                <div class="block-1-desc">
+                <div class="about-divum-description">
                     <h2>Welcome to Divum !</h2>
                     <p>The world is seeing unprecedented Digital Transformation across all businesses to improve efficiencies, enable frictionless customer reachout and deliveries, provide better customer satisfaction, and enable new business models.
                         At Divum we have prepared ourselves with our 14 years of experience to make this journey seamless and cost effective for you.
@@ -124,17 +133,17 @@
                 </div>
             </div>
             <div class="item item-2">
-                <div class="block-1-desc" style="margin-top: 30px;">
+                <div class="about-divum-description" style="margin-top: 30px;">
                     <img src="/images/img1.png" alt="">
                 </div>
             </div>
             <div class="item item-3">
-                <div class="block-1-desc">
+                <div class="about-divum-description">
                     <img src="/images/img2.png" alt="">
                 </div>
             </div>
             <div class="item item-4">
-                <div class="block-1-desc">
+                <div class="about-divum-description">
                     <h2>Welcome to Divum !</h2>
                     <p>
                         We have been there, done that. Many times over.Our vast experience coupled with our Agile development methodology and Pre-built Solutions strike a good balance between... 
@@ -143,7 +152,7 @@
                 </div>
             </div>
             <div class="item item-5">
-                <div class="block-1-desc" style="margin-top: 40px; margin-left: 20px;">
+                <div class="about-divum-description">
                     <h2>60+ Technologies Covered</h2>
                     <p>
                         We embrace new technologies by partnering with OEMs/Platform owners for Early Access Programs.We enable you to stay ahead of the market by leveraging cutting edge technologies We have been there, done that. Many times over.Our vast experience coupled with our Agile development methodology and Pre-built Solutions strike a good balance between...
@@ -152,17 +161,17 @@
                 </div>
             </div>
             <div class="item item-6">
-                <div class="block-1-desc" style="margin-top: 30px;">
+                <div class="about-divum-description">
                     <img src="/images/img3.png" alt="">
                 </div>
             </div>
             <div class="item item-7">
-                <div class="block-1-desc">
+                <div class="about-divum-description">
                     <img src="/images/img4.png" alt="">
                 </div>
             </div>
             <div class="item item-8">
-                <div class="block-1-desc">
+                <div class="about-divum-description">
                     <h2>20+ Domains</h2>
                     <p>
                         In the last 14 years, we have built Digital Solutions cutting across e-Commerce, Supply Chain, Logistics, Social Networks, Chat/Collaboration, Health-tech, Fintech...
@@ -178,42 +187,45 @@
                     We Build Brands That Matter
                 </h1>
             </div>
-            <div class="startup-container">
-                <img src="/images/startup.png" alt="">
-                <p class="title">
-                    For Startups
-                </p>
-                <p class="description">
-                    We engage deeply with a passionate team of designers and engineers right from your idea conceptualisation, user-journey- research to build a right market-fit product in a record time.
-                </p>
+            <div class="what-we-build-content">
+                <div class="what-we-build-item startup-container">
+                    <img src="/images/startup.png" alt="">
+                    <p class="title">
+                        For Startups
+                    </p>
+                    <p class="description">
+                        We engage deeply with a passionate team of designers and engineers right from your idea conceptualisation, user-journey- research to build a right market-fit product in a record time.
+                    </p>
+                </div>
+                <div class="what-we-build-item enterprise-container">
+                    <img src="/images/enterprise.png" alt="">
+                    <p class="title">
+                        For Enterprises
+                    </p>
+                    <p class="description">
+                        We understand enterprises need solutions, not products. Partner with us to analyse your business challenges, conduct research and arrive at most innovative solution before you take up any digital transformation.
+                    </p>
+                </div>
+                <div class="what-we-build-item expertise-container">
+                    <img src="/images/expertise.png" alt="">
+                    <p class="title">
+                        Expertise
+                    </p>
+                    <p class="description">
+                        As a team we bring our experience of delivering 1400+ design and technology solutions spread across domains like E-commerce, FinTech, Healthcare, Education, Business, Travel, Media, Lifestyle, Enterprise, Social and Sports. Our expertise in Cloud, Blockchain, IoT, Machine Learning, AI and other latest technologies enable quick time to market.
+                    </p>
+                </div>
+                <div class="what-we-build-item partnership-container">
+                    <img src="/images/partnership.png" alt="">
+                    <p class="title">
+                        For Partnership
+                    </p>
+                    <p class="description">
+                        Our global partnerships with OEMs like Oracle, Google, Amazon, SAP, Microsoft and Samsung help us participate in early access programs on upcoming design and technology trends and stay ahead of the curve and add value to our customer’s products leveraging the latest offerings from the OEMs.
+                    </p>
+                </div>
             </div>
-            <div class="enterprise-container">
-                <img src="/images/enterprise.png" alt="">
-                <p class="title">
-                    For Enterprises
-                </p>
-                <p class="description">
-                    We understand enterprises need solutions, not products. Partner with us to analyse your business challenges, conduct research and arrive at most innovative solution before you take up any digital transformation.
-                </p>
-            </div>
-            <div class="expertise-container">
-                <img src="/images/expertise.png" alt="">
-                <p class="title">
-                    Expertise
-                </p>
-                <p class="description">
-                    As a team we bring our experience of delivering 1400+ design and technology solutions spread across domains like E-commerce, FinTech, Healthcare, Education, Business, Travel, Media, Lifestyle, Enterprise, Social and Sports. Our expertise in Cloud, Blockchain, IoT, Machine Learning, AI and other latest technologies enable quick time to market.
-                </p>
-            </div>
-            <div class="partnership-container">
-                <img src="/images/partnership.png" alt="">
-                <p class="title">
-                    For Partnership
-                </p>
-                <p class="description">
-                    Our global partnerships with OEMs like Oracle, Google, Amazon, SAP, Microsoft and Samsung help us participate in early access programs on upcoming design and technology trends and stay ahead of the curve and add value to our customer’s products leveraging the latest offerings from the OEMs.
-                </p>
-            </div>
+            
         </div>
 
         <div class="global-clients">
@@ -265,33 +277,64 @@
             <h1>Partners</h1>
             <h5>AWS | Google | Oracle | Microsoft | SAP</h5>
             <div class="partner-container">
-                <div class="bl aws">
-                    <div class="aws-img">
+                <div id="bl" class="aws">
+                    <div class="partner-content">
                         <!-- <img src="/images/partners/aws.png" alt=""> -->
-                    
-                    </div>
-                    <div class="aws-words">
-                        
+                        <h3>
+                            AWS Partner Network
+                        </h3>
                         <p>
-                            <h4>
-                                AWS Partner Network
-                            </h4>
-                            AWS Cloud, AWS Mobility,
-                             AWS IoT and AWS Blockchain.
+                            AWS Cloud, AWS Mobility, AWS IoT and AWS Blockchain.
                         </p>
                     </div>
                 </div>
-                <div class="bl google-cloud">
-                    <img src="/images/partners/google-cloud.png" alt="">
+                <div id="bl" class="google-cloud">
+                    <!-- <img src="/images/partners/google-cloud.png" alt=""> -->
+                    <div class="partner-content">
+                        <h3>
+                            Certified Google Cloud Partner
+                        </h3>
+                        <p>
+                            App Engine, BigQuery, DataStore,TensorFlow. First 3 companies to be certified under this world-wide program by Google.
+                        </p>
+                    </div>
+                    
                 </div>
-                <div class="bl oracle">
-                    <img src="/images/partners/oracle.png" alt="">
+                <div id="bl" class="oracle">
+                    <!-- <img src="/images/partners/oracle.png" alt=""> -->
+                    <div class="partner-content">
+                        <h3>
+                            Oracle Scale-up Ecosystem
+                        </h3>
+                        <p>
+                            Member of scale-up program for Cloud and Blockchain applications.
+                        </p>
+                    </div>
+                    
                 </div>
-                <div class="bl microsoft-cloud">
-                    <img src="/images/partners/microsoft.png" alt="">
+                <div id="bl" class="microsoft-cloud">
+                    <!-- <img src="/images/partners/microsoft.png" alt=""> -->
+                    <div class="partner-content">
+                        <h3>
+                            Microsoft Azure Partner
+                        </h3>
+                        <p>
+                            Solutions/products built with some of the leading Azure services CosmoDB, Azure Active Directory, API management, Azure DevOps and more.
+                        </p>
+                    </div>
+                    
                 </div>
-                <div class="bl sap">
-                    <img src="/images/partners/sap.png" alt="">
+                <div id="bl" class="sap">
+                    <!-- <img src="/images/partners/sap.png" alt=""> -->
+                    <div class="partner-content">
+                        <h3>
+                            SAP PartnerEdge Partner
+                        </h3>
+                        <p>
+                            SAP PartnerEdge Partner - SAP Cloud and Mobility solutions.
+                        </p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -303,7 +346,7 @@
                 <h1 class="title">
                     How We Do
                 </h1>
-                <p class="contact-us"></p>
+                <p class="contact-us">CONTACT US</p>
             </div>
             <div class="how-we-do-container">
                 <div class="how-we-do-sections">
