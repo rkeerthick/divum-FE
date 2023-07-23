@@ -7,9 +7,9 @@ body{
 }
 
 header {
-    /* height: 130vh; */
-    /* width: 100%; */
-    background-color: rgb(3, 78, 252);
+    /* height: 130vh;
+    width: 100%; */
+    background-color: #3C4AED;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,6 +69,31 @@ a {
 
 .logo img {
     width: 80px;
+}
+
+.about-us-pop-up {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+.about-us-pop-up ul {
+    position: absolute;
+    left: 60%;
+    margin: 10px 0px;
+}
+
+.about-us-pop-up li {
+    padding: 10px;
+   /* border: 2px solid white;  */
+   background-color: #3C4AED;
+}
+
+.company-pop-up:hover .about-us-pop-up {
+    display: block;
 }
 
 .hamburger {
@@ -272,6 +297,7 @@ video {
     position: relative;
     width: 70%;
     display: block;
+    margin: auto;
 }
 
 
