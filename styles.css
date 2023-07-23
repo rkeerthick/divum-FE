@@ -7,12 +7,13 @@ body{
 }
 
 header {
-    height: 130vh;
-    width: 100%;
+    /* height: 130vh; */
+    /* width: 100%; */
     background-color: rgb(3, 78, 252);
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .contact-us {
@@ -267,7 +268,11 @@ a {
     padding: 30px 50px;
 } */
 
-
+video {
+    position: relative;
+    width: 70%;
+    display: block;
+}
 
 
 /* .about-divum-description {
@@ -526,6 +531,8 @@ a {
 
 #client-gallery {
     border: 0px solid white;
+    width: 60%;
+    height: auto;
 }
 
 /* engagement-level */
@@ -718,12 +725,30 @@ a {
 
 .insight-container {
     display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr     ;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
     column-gap: 30px;
 }
 
 .insight img {
-    width: 300PX;
-    height: auto;
+    width: 400px;
+    height: 300px;
+}
+
+.insight-item {
+    display: flex;
+    /* justify-content: center; */
+    align-items: start;
+    flex-direction: column;
+    width: 400px;
+    height: 550px;
+}
+
+.insight .caption-title {
+    width: 400px;
+}
+
+.insight .caption {
+    width: 400px;
 }

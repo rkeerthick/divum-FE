@@ -7,8 +7,16 @@ let Img_Length = Object.keys(gallery).length
 let Img_current = 1
 
 function slide() {
-    if(Img_current >= Img_Length) {
+    if(Img_current > Img_Length) {
         Img_current = 1;
+    }
+    
+    document.getElementById("gallery-"+Img_current).style.color = "blue";
+    if(Img_current>1) {
+        document.getElementById("gallery-"+(Img_current-1)).style.color = "black"
+    }
+    if(Img_current == 1) {
+        document.getElementById("gallery-8").style.color = "black"
     }
     document.getElementById("client-gallery").src = gallery[Img_current];
     Img_current++;
@@ -22,6 +30,8 @@ window.onload = auto;
 
 function display(list) {
     console.log(gallery[list.value]);
+    document.getElementById("gallery-"+list.value).style.color = "blue"
+    document.getElementById("gallery-"+Img_current).style.color = "black"
     document.getElementById("client-gallery").src = gallery[list.value]
 }
 
