@@ -44,3 +44,7 @@ function display(list) {
 // for(let k=1; k<=i; k++) {
 //     document.getElementById("bl").style.backgroundImage = `url(/images/partners/${partner_image[k]})`
 // }
+
+document.querySelector(".company-pop-up").addEventListener("click", () => {
+    
+})

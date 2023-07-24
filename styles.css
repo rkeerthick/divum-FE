@@ -71,8 +71,7 @@ a {
     width: 80px;
 }
 
-.about-us-pop-up {
-    /* position: absolute; */
+/* .about-us-pop-up {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,12 +87,34 @@ a {
 
 .about-us-pop-up li {
     padding: 10px;
-   /* border: 2px solid white;  */
    background-color: #3C4AED;
 }
 
 .company-pop-up:hover .about-us-pop-up {
     display: block;
+} */
+
+.about-us-pop-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    left: 64%;
+}
+
+.about-us-pop-up-visible {
+    display: block;
+}
+
+.about-us-pop-up ul {
+    margin: 10px 0px;
+}
+
+.about-us-pop-up li {
+    padding: 10px;
+   background-color: #3C4AED;
 }
 
 .hamburger {
@@ -637,6 +658,46 @@ video {
     gap: 3rem;
 }
 
+.aws {
+    background-image: url(/images/partners/aws.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* content-visibility: hidden; */
+    background-size: 200px auto;
+}
+
+.google-cloud {
+    background-image: url(/images/partners/google-cloud.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* content-visibility: hidden; */
+    background-size: 200px auto;
+}
+
+.oracle {
+    background-image: url(/images/partners/oracle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* content-visibility: hidden; */
+    background-size: 200px auto;
+}
+
+.microsoft-cloud {
+    background-image: url(/images/partners/microsoft.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* content-visibility: hidden; */
+    background-size: 200px auto;
+}
+
+.sap {
+    background-image: url(/images/partners/sap.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* content-visibility: hidden; */
+    background-size: 200px auto;
+}
+
 #bl {
     width: 303px;
     height: 303px;
@@ -651,47 +712,6 @@ video {
 
 #bl:hover {
     background-image: none;
-    content-visibility: visible;
-}
-
-.aws {
-    background-image: url(/images/partners/aws.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    content-visibility: hidden;
-    background-size: 200px auto;
-}
-
-.google-cloud {
-    background-image: url(/images/partners/google-cloud.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    content-visibility: hidden;
-    background-size: 200px auto;
-}
-
-.oracle {
-    background-image: url(/images/partners/oracle.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    content-visibility: hidden;
-    background-size: 200px auto;
-}
-
-.microsoft-cloud {
-    background-image: url(/images/partners/microsoft.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    content-visibility: hidden;
-    background-size: 200px auto;
-}
-
-.sap {
-    background-image: url(/images/partners/sap.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    content-visibility: hidden;
-    background-size: 200px auto;
 }
 
 .partner-content {
@@ -702,6 +722,16 @@ video {
 .partner-content p {
     font-size: 16px;
 }
+
+.partner-content h3, .partner-content p {
+    opacity: 0;
+}
+
+.partner-content:hover h3, .partner-content:hover p {
+    opacity: 1;
+}
+
+
 
 
 /* how we do */
@@ -777,4 +807,54 @@ video {
 
 .insight .caption {
     width: 400px;
+}
+
+/* standards */
+
+.standards-container {
+    background-color: rgba(9, 106, 208, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 0%;
+}
+
+.standards-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+.standards-content p {
+    text-align: center;
+}
+
+.standards-title {
+    margin-bottom: 0px;
+}
+.standards-naming {
+    margin-top: 0px;
+}
+
+.standards-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.standards-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 7rem;
+    margin: 15px;
+}
+
+.standards-images img {
+    width: 80px;
+
 }
