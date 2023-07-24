@@ -858,3 +858,43 @@ video {
     width: 80px;
 
 }
+
+.final-container {
+    display: flex;
+
+}
+
+.final-container-column {
+    margin: 5%;
+    box-shadow: 0px 0 80px 0 rgb(31 44 61 / 10%);
+    padding: 3% 5% 10% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.final-container h1 {
+    text-align: center;
+}
+
+input {
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(146, 96, 0, 0.06);
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.final-container .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=button] {
+    background-color: #3c4aed;
+    color: white;
+}
